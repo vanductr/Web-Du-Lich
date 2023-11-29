@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VinStay</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--  -->
+    <div class="header">
+      <nav id="navBar">
+        <img src="./images/VinStay.png" class="logo" />
+        <ul class="nav-links">
+          <li><a href="#" class="active">Địa điểm Phổ biến</a></li>
+          <li><a href="#">Dã ngoại</a></li>
+          <li><a href="#">Tour Ưu đãi</a></li>
+        </ul>
+        <a href="#" class="register-btn">Đăng Kí</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+      </nav>
+      <div class="container">
+        <h1>Tìm Kỳ Nghỉ Của Bạn</h1>
+        <div class="search-bar">
+          <form>
+            <div class="location-input">
+              <label>Địa Điểm</label>
+              <input type="text" placeholder="Bạn muốn đi đâu?" />
+            </div>
+            <div>
+              <label>Nhận Phòng</label>
+              <input type="text" placeholder="nhập ngày" />
+            </div>
+            <div>
+              <label>Trả Phòng</label>
+              <input type="text" placeholder="nhập ngày" />
+            </div>
+            <div>
+              <label>Khách mời</label>
+              <input type="text" placeholder="nhập khách mời" />
+            </div>
+            <button type="submit"><img src="images/search.png" /></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="sub-title">Tour Độc quyền của chúng tôi</h2>
+      <div class="exclusives">
+        <div>
+          <img src="./images/ha-long.jpg" />
+          <span>
+            <h3>Hạ Long</h3>
+            <p>Starrs @ vnđ1,9tr</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/kdl-thuy-chau.jpg" />
+          <span>
+            <h3>Thuỷ Châu</h3>
+            <p>Starrs @ vnđ1,9tr</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/phu-yen.jpg" />
+          <span>
+            <h3>Phú Yên</h3>
+            <p>Starrs @ vnđ1,9tr</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/ninh-binh.jpg" />
+          <span>
+            <h3>Tràng An</h3>
+            <p>Starrs @ vnđ1,9tr</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/quy-nhon.jpg" />
+          <span>
+            <h3>Hòn Khô</h3>
+            <p>Starrs @ vnđ1,9tr</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/cairang.jpeg" />
+          <span>
+            <h3>Cái Răng</h3>
+            <p>Starrs @ vnđ1,9tr</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/ta-nung.jpg" />
+          <span>
+            <h3>Cù Lần</h3>
+            <p>Starrs @ vnđ1,9tr</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/thoi-son.jpeg" />
+          <span>
+            <h3>Thới Sơn</h3>
+            bai
+            <p>Starrs @ vnđ1,9tr</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/bai-sao.jpeg" />
+          <span>
+            <h3>Bãi Sao</h3>
+            <p>Starrs @ vnđ1,9tr</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/tien-son.jpg" />
+          <span>
+            <h3>Tiên Sơn</h3>
+            <p>Starrs @ vnđ1,9tr</p>
+          </span>
+        </div>
+      </div>
+
+      <h2 class="sub-title">Địa điểm được Ưa thích</h2>
+      <div class="trending">
+        <div>
+          <img src="./images/sapa.jpeg" />
+          <h3>SaPa</h3>
+        </div>
+        <div>
+          <img src="./images/Phong-Nha-9.jpg" />
+          <h3>Phong Nha - Kẻ Bàng</h3>
+        </div>
+        <div>
+          <img src="./images/nha-trang.jpg" />
+          <h3>Nha Trang</h3>
+        </div>
+        <div>
+          <img src="./images/huế.jpg" />
+          <h3>Hoàng Thành Huế</h3>
+        </div>
+      </div>
+
+      <div class="cta">
+        <h3>Chia Sẻ <br />Hiện Đang Kiếm Tiền</h3>
+        <p>
+          Cơ hội tuyệt vời để kiếm tiền bằng cách <br />chia sẻ không gian dư
+          thừa của bạn.
+        </p>
+        <a href="#" class="cta-btn">Tìm hiểu thêm</a>
+      </div>
+      <h2 class="sub-title">Câu chuyện của Du khách</h2>
+      <div class="stories">
+        <div>
+          <img src="./images/story-1.png" />
+          <p>Du lịch Bãi biển Nha Trang chỉ với 2,9tr</p>
+        </div>
+        <div>
+          <img src="./images/halongpark.jpeg" />
+          <p>Bạn biết đây là đâu không?</p>
+        </div>
+        <div>
+          <img src="./images/story-3.png" />
+          <p>Vịnh Hạ Long luôn là Điểm đến mỗi kì nghỉ của tôi</p>
+        </div>
+      </div>
+      <a href="#" class="start-btn">Bắt đầu kiếm tiền</a>
+      <div class="about-msg">
+        <h2>Giới thiệu về VinStay</h2>
+        <p>
+          Chào mừng đến với VinStay - nơi bạn khám phá thế giới và trải nghiệm
+          du lịch một cách không giới hạn! Chúng tôi tự hào giới thiệu dịch vụ
+          độc đáo, nơi kết nối đam mê du lịch với trải nghiệm đặt phòng khách
+          sạn và các tour hấp dẫn. Với cam kết phục vụ tận tâm, đội ngũ chúng
+          tôi luôn sẵn sàng hỗ trợ bạn trong mọi chi tiết, từ việc lên kế hoạch
+          chuyến đi đến giải quyết mọi vấn đề của bạn.
+        </p>
+      </div>
+      <div class="footer">
+        <a href="http://facebook.com/"
+          ><i class="fa-brands fa-square-facebook"></i
+        ></a>
+        <a href="http://youtube.com/"
+          ><i class="fa-brands fa-youtube"></i></i
+        ></a>
+        <a href="http://twitter.com/"
+          ><i class="fa-brands fa-square-x-twitter"></i></i
+        ></a>
+        <a href="http://linkedin.com/"
+          ><i class="fa-brands fa-linkedin"></i></i
+        ></a>
+        <a href="http://instagram.com/"
+          ><i class="fa-brands fa-square-instagram"></i></i
+        ></a>
+        <hr>
+        <p>Copyright ©️ 2023, VinStay Company</p>
+      </div>
+    </div>
+    <!--  -->
+
+    <script>
+        var navBar = document.getElementById("navBar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+  </body>
+</html>
+
+
+<!-- Trang Web này được chia làm 2 class chính là: Phần "header" và Phần "container" 
+Phần "header" chiếm 100vh, tức là chiếm luôn phần người dùng có thể nhìn thấy khi vào trang web,
+Và trong phần "header" bao gồm thẻ "nav" - chứa logo và các đường link menu liên kết; và bao gồm thẻ div.container chứa thanh searchbar -->
